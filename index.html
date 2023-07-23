@@ -34,6 +34,8 @@
               "bike-primary-bg": "rgba(231, 111, 81, 0.10)",
               "bike-gray": "#6C6C6C",
               "bike-blue": "#23A6F0",
+              "faq-q": "#383838",
+              "faq-a": "#7E848C",
             },
           },
         },
@@ -458,7 +460,117 @@
           <!-- -------- -->
         </div>
       </section>
+
+      <!-- FAQ -->
+
+      <section>
+        <h3 class="font-semibold text-3xl text-center my-12">
+          Frequently Asked <span class="text-bike-primary">Questions</span>
+        </h3>
+
+        <!-- grid container -->
+        <div class="flex flex-col md:flex-col lg:flex-row lg:mx-32">
+          <div class="flex-1">
+            <img class="w-3/5" src="./images/others/faq.png" alt="" />
+          </div>
+
+          <div class="flex-1">
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div
+                class="text-faq-q collapse-title text-base lg:text-xl font-medium"
+              >
+                <Translate text="Click to open this one and close others" />
+                What are the most important things I should know about riding a
+                bike?
+              </div>
+              <div class="collapse-content">
+                <p class="text-faq-a text-xs lg:text-sm">
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="text-faq-q collapse-title text-base lg:text-xl font-medium"
+              >
+                <Translate text="Click to open this one and close others" />
+                What are the most important things I should know about riding a
+                bike?
+              </div>
+              <div class="collapse-content">
+                <p class="text-faq-a text-xs lg:text-sm">
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div
+                class="text-faq-q collapse-title text-base lg:text-xl font-medium"
+              >
+                <Translate text="Click to open this one and close others" />
+                What are the most important things I should know about riding a
+                bike?
+              </div>
+              <div class="collapse-content">
+                <p class="text-faq-a text-xs lg:text-sm">
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+
+    <!-- footer -->
+    <footer class="p-10 text-center md:p-10 bg-neutral text-neutral-content">
+      <div class="">
+        <div class="text-xs md:text-base">
+          <a class="mr-10" href="">Download Now</a>
+          <a href="">License</a>
+        </div>
+        <div
+          class="grid grid-cols-3 md:grid-cols-6 gap-4 text-center my-8 text-xs md:text-base list-none"
+        >
+          <li>About</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Career</li>
+          <li>Help</li>
+          <li>Privacy Policy</li>
+        </div>
+        <p>&copyAll rights Reserved</p>
+      </div>
+
+      <div class="">
+        <p class="mt-4">Get the app</p>
+        <div
+          class="grid grid-cols-2 mx-auto my-8 md:grid-col gap-4 justify-center"
+        >
+          <a>
+            <img
+              class="mx-auto w-32"
+              src="./images/others/android.png"
+              alt=""
+            />
+          </a>
+          <a>
+            <img class="mx-auto w-32" src="./images/others/ios.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
